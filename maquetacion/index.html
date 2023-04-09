@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,68 +11,140 @@
             margin: 0;
             font-family: Inter, Arial, Helvetica, sans-serif;
         }
+
         p {
             margin-right: 40px;
             height: 20px;
             font-size: 14px;
         }
-        img#header{
-             margin-left: 40px;
+
+        img#header {
+            margin-left: 40px;
+            height: 14px;
+            cursor: pointer;
+
         }
+
         h1 {
             margin: 50px 580px 30px;
             text-align: center;
             font-size: 1.8em;
         }
+         h2 {
+            text-align:left;
+            color: white;
+        }
+
         button.redondo {
             background-color: white;
+            color: black;
+            font-size: 14px;
             border: 2px solid black;
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
             margin-right: 10px;
+            cursor: pointer;
         }
-         button.lila{
+
+        button.lila {
             background-color: white;
             border: 2px solid #6b53f0;
-            color:#6b53f0;
+            color: #6b53f0;
+            font-size: 14px;
             border-radius: 25px;
             padding: 0px 20px;
             height: 32px;
-        } 
+            cursor: pointer;
+        }
+
+        button.redondo:hover {
+            background-color: black;
+            color: white;
+        }
+
+        button.lila:hover {
+
+            background-color: #6b53f0;
+            color: white;
+
+        }
+
+        a {
+            color: #201b24;
+        }
+
+        a:link,
+        a:visited,
+        a:active {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #6b53f0;
+        }
+
         div#introduction-actions {
             display: flex;
             justify-content: center;
         }
+
+        img#header:hover {
+            color: #6b53f0;
+        }
+        div#centro{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+        }
+       
+
+        div#texto-descripcion{
+            display: block;
+            color: white;
+            margin-left: 450px;
+            margin-top: 100px;
+            margin-right: 950px;
+            margin-bottom: 50px;
+        }
     </style>
 </head>
+
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
+    <div id="header"
+        style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
         <div id="header-left">
             <img src="logo.svg">
         </div>
         <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
+            <p><a href="#">Nosotros</a></p>
+            <p><a href="#">Programas</a></p>
+            <p><a href="#">Capaciontaciones</a></p>
+            <p><a href="#">Alianzas</a></p>
+            <p><a href="#">Contacto</a></p>
             <button class="redondo">Sumate +</button>
-            <img id="header" src="instagram (1).png" style="height: 14px;">
+            <img id="header" src="instagram (1).png">
             <img id="header" src="linkedin.png" style="height: 14px;">
         </div>
     </div>
     <div id="introduction" style="padding: 48px;">
         <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
+            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la
+                tecnología.</h1>
         </div>
         <div id="introduction-actions" style="margin-top: 25px;">
             <button class="redondo">Contactanos -></button>
-            <button class="lila" style="margin-left: 14px; color:#6b53f0">Sumate +</button>
+            <button class="lila">Sumate +</button>
         </div>
     </div>
-    <div id="centro" style="background-color: #201b24;background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-color:var(--awb-color3);border-style:solid;">
-        <div style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"></div>
-    </div>
+    <div id="centro" style="background-color: black;background-position: center center;background-repeat: no-repeat;border-width: 0px 0px 0px 0px;border-style:solid;">
+        <div id="texto-descripcion">
+        <h2>.Impacto</h2>
+        <p id="descripcion">Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.</p>
+        </div>
+    </div>    
+    <div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container has-pattern-background has-mask-background fusion-parallax-fixed nonhundred-percent-fullwidth hundred-percent-height hundred-percent-height-center-content non-hundred-percent-height-scrolling" style="background-color: rgba(255, 255, 255, 0); background-image: url(&quot;https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg&quot;); background-position: center center; background-repeat: no-repeat; border-width: 0px; border-color: var(--awb-color3); border-style: solid; background-size: cover; background-attachment: fixed; height: calc(100vh - 80px);"><div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start" style="max-width:1248px;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );"></div><style type="text/css">.fusion-body .fusion-flex-container.fusion-builder-row-4{ padding-top : 0px;margin-top : 0px;padding-right : 30px;padding-bottom : 0px;margin-bottom : 0px;padding-left : 30px;}</style></div>
 </body>
+
 </html>
