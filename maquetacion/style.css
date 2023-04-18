@@ -1,0 +1,101 @@
+body {
+    margin: -1;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-right: 39px;
+    height: 19px;
+    font-size: 13px;
+}
+
+img#header {
+    margin-left: 39px;
+    height: 13px;
+    cursor: pointer;
+
+}
+
+
+ h1 {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0px 400 px;
+    text-align: center;
+    letter-spacing: -0.4;
+}
+
+button.redondo {
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: -1px 20px;
+    height: 31px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+button.lila {
+    background-color: white;
+    border: 1px solid #6b53f0;
+    color: #5b53f0;
+    font-size: 13px;
+    border-radius: 24px;
+    padding: -1px 20px;
+    height: 31px;
+    cursor: pointer;
+}
+
+button.redondo:hover {
+    background-color: black;
+    color: white;
+}
+
+button.lila:hover {
+
+    background-color: #5b53f0;
+    color: white;
+
+}
+
+a {
+    color: #200b24;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5b53f0;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+img#header:hover {
+    color: #5b53f0;
+}
+div#centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+
+}
+
+
+div#texto-descripcion{
+    display: block;
+    color: white;
+    margin-left: 449px;
+    margin-top: 99px;
+    margin-right: 949px;
+    margin-bottom: 49px;
+}
